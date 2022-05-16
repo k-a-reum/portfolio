@@ -187,7 +187,7 @@ p {
 .major__icon i{
     transition: all var(--animation-duration) ease;
 }
-.major__icon :hover i{
+.major__icon :hover {
     color: var(--color-pink);
     transform: rotate(-30deg) scale(1.1);
 }
