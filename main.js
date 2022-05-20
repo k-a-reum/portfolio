@@ -26,6 +26,7 @@ navbarMenu.addEventListener('click', (event)=>{
 // Handle scrolling when tapping on the contact button
 const contactBtn = document.querySelector('.home__contact');
 contactBtn.addEventListener('click', ()=>{
-    scrollIntoView('#contact')
-})
+    const scrollTo=document.querySelector('#contact');
+    scrollTo.scrollIntoView({behavior: 'smooth'});
+});
 
